@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/desafios_aritmetico_js/analise_de_numeros/css/style.css">
+    
+    <title>Desafio 3/5</title>
+</head>
+    <body>
+    
+        <h1>Análise de Números</h1>
+
+        <h2>Desafio</h2>
+        <p>Você deve fazer a leitura de 5 valores inteiros. Em seguida mostre quantos valores informados são pares, quantos valores informados são ímpares, quantos valores informados são positivos e quantos valores informados são negativos.</p>
+
+        <h2>Entrada</h2>
+        <p>Você receberá 5 valores inteiros.</p>
+
+        <h2>Saída</h2>
+        <p>Exiba a mensagem conforme o exemplo de saída abaixo, sendo uma mensagem por linha e não esquecendo o final de linha após cada uma.</p>
+
+        <table>
+            <tr>
+                <th>Exemplos de Entrada</th>
+                <th>Exemplos de Saída</th>
+            </tr>
+
+            <tr>
+                <td>-5</td>
+                <td>3 valor(es) par(es)</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>2 valor(es) imapar(es)</td>
+            </tr>
+            <tr>
+                <td>-3</td>
+                <td>1 valor(es) positivo(s)</td>
+            </tr> 
+            <tr> 
+                <td>-4</td>
+                <td>3 valor(es) negativo(s)</td>
+            </tr>
+            <tr>
+                <td>12</td>
+            </tr>
+        </table>
+
+        <textarea readonly rows='14' cols='40'>
+            let numero = Array(5);
+
+            for(let i =0 ; i < numero.length; i++){
+                numero[i] = parseInt(gets());
+            }
+
+            let positivos = numero.filter(value => value > 0);
+            let negativos = numero.filter(value => value < 0);
+            let pares = numero.filter(value => value % 2 == 0);
+            let impares = numero.filter(value => value % 2 != 0);
+
+            console.log(pares.length + " valor(es) par(es)");
+            console.log(impares.length + " valor(es) impar(es)");
+            console.log(positivos.length + " valor(es) positivo(s)");
+            console.log(negativos.length + " valor(es) negativo(s)");
+        </textarea>
+
+        <script type="text/javascript" src="/desafios_aritmetico_js/analise_de_numeros/js/main.js"></script>
+
+    </body>
+</html>

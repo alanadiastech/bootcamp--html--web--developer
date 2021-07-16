@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/desafios_aritmetico_js/consumo_medio_automovel/css/style.css">
+    
+    <title>Desafio 5/5</title>
+</head>
+    <body>
+    
+        <h1>Consumo Médio do Automóvel</h1>
+
+        <h2>Desafio</h2>
+        <p>Você deve calcular o consumo médio de um automóvel onde será informada a distância total percorrida (em Km) e o total de combustível consumido (em litros).</p>
+
+        <h2>Entrada</h2>
+        <p>Você receberá dois valores: um valor inteiro X com a distância total percorrida (em Km), e um valor real Y que representa o total de combustível consumido, com um dígito após o ponto decimal.</p>
+
+        <h2>Saída</h2>
+        <p>Exiba o valor que representa o consumo médio do automóvel (3 casas após a vírgula), incluindo no final a mensagem "km/l".</p>
+
+        <table>
+            <tr>
+                <th>Exemplos de Entrada</th>
+                <th>Exemplos de Saída</th>
+            </tr>
+
+            <tr>
+                <td>500</td>
+                <td>14.286 Km/l</td>
+            </tr>
+            <tr>
+                <td>35.0</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+            <td>&nbsp;</td>
+           </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>2254</td>
+                <td>18.119 Km/l</td>
+            </tr>
+            <tr>
+                <td>124.4</td>
+                <td>&nbsp;</td>  
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>4554</td>
+                <td>9.802 Km/l</td>
+            </tr>
+            <tr>
+                <td>464.6</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+
+        <textarea readonly rows='4' cols='40'>
+            let X = parseInt(gets());
+            let Y = parseFloat(gets());
+            let consumoMedio = parseFloat(X / Y).toFixed(3);
+            
+            console.log(consumoMedio + " km/l");
+        </textarea>
+
+        <script type="text/javascript" src="/desafios_aritmetico_js/consumo_medio_automovel/js/main.js"></script>
+
+    </body>
+</html>

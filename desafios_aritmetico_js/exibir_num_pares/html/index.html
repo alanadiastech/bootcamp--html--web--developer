@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/desafios_aritmetico_js/exibir_num_pares/css/style.css">
+    
+    <title>Desafio 2/5</title>
+</head>
+    <body>
+    
+        <h1> Exibindo Números Pares</h1>
+
+        <h2>Desafio</h2>
+        <p>Crie um programa que leia um número e mostre os números pares até esse número, inclusive ele mesmo.</p>
+
+        <h2>Entrada</h2>
+        <p>Você receberá 1 valor inteiro N, onde N > 0.</p>
+
+        <h2>Saída</h2>
+        <p>Exiba todos os números pares até o valor de entrada, sendo um em cada linha.</p>
+
+        <table>
+            <tr>
+                <th>Exemplos de Entrada</th>
+                <th>Exemplos de Saída</th>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>6</td>
+            </tr>  
+        </table>
+
+        <textarea readonly rows='8' cols='40'>
+            var valor = 0;
+
+            valor = gets();
+             
+              for (let i = 1; i <= valor; i++){
+                 if (i % 2 === 0) {
+                     console.log(i);
+                 }
+             };
+        </textarea>
+
+        <script type="text/javascript" src="/desafios_aritmetico_js/exibir_num_pares/js/main.js"></script>
+
+    </body>
+</html>

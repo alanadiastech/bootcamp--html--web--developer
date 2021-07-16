@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/desafios_aritmetico_js/qtd_numeros_positivos/css/style.css">
+    
+    <title>Desafio 1/5</title>
+</head>
+    <body>
+    
+        <h1>Quantidade de Números Positivos</h1>
+
+        <h2>Desafio</h2>
+        <p>Crie um programa que leia 6 valores. Você poderá receber valores negativos e/ou positivos como entrada, devendo desconsiderar os valores nulos. Em seguida, apresente a quantidade de valores positivos digitados.</p>
+
+        <h2>Entrada</h2>
+        <p>Você receberá seis valores, negativos e/ou positivos.</p>
+
+        <h2>Saída</h2>
+        <p>Exiba uma mensagem dizendo quantos valores positivos foram lidos assim como é exibido abaixo no exemplo de saída. Não esqueça da mensagem "valores positivos" ao final..</p>
+
+        <table>
+            <tr>
+                <th>Exemplos de Entrada</th>
+                <th>Exemplos de Saída</th>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>4 valores positivos</td>
+            </tr>
+            <tr>
+                <td>-5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+            </tr> 
+            <tr>
+                <td>-3.4</td>
+            </tr>
+            <tr>
+                <td>4.6</td>  
+            </tr>
+            <tr>
+                <td>12</td>
+            </tr>
+        </table>
+
+        <textarea readonly rows='14' cols='40'>
+            let total = 0;
+            let i = 0;
+            let valor;
+            
+            while (i <= 5){
+
+                valor = parseInt(gets());
+
+            if (valor > 0){
+
+                total ++;
+
+            }
+
+                i++;
+
+            }
+
+            console.log(total + " " + "valores positivos");
+        </textarea>
+
+        <script type="text/javascript" src="/desafios_aritmetico_js/qtd_numeros_positivos/js/main.js"></script>
+
+    </body>
+</html>
