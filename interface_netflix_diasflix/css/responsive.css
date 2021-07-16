@@ -1,0 +1,27 @@
+
+@media screen and (max-width:768px){
+    header nav a{
+        float: left;
+        font-size: 10px;
+        margin: 0;
+        margin-inline: 1.5px;
+        
+    }
+
+    .filme-principal .titulo, .filme-principal .titulo2{
+        font-size: 45px;
+        margin: 10px;
+    }
+    .botao2{
+        background-color: rgba(15, 15, 15, 0.5);
+    }
+}
+
+
+@media screen and (min-width:1024px){
+   .filme-principal .descricao{
+        width: 70%;
+    }
+}
+
+

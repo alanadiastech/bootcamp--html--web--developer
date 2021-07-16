@@ -1,0 +1,10 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(26, 2, 22);
+    color: rgb(224, 201, 219);
+}
