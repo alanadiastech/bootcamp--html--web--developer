@@ -8,7 +8,7 @@ Aprendendo a programar páginas de internet e desenvolver websites utilizando HT
 ### Você encontrará nesse repositório:
 
 * Site com a ferramenta Bootstrap
-* Desafios AritmÉtico com JavaScript
+* Desafios Aritmético com JavaScript
 * Desafios Introdução ao JavaScript
 * Interface do Instagram
 * Interface do Netflix
